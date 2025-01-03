@@ -11,3 +11,4 @@ services:
     restart: always
     volumes:
      - ./data/conf:/etc/openvpn
+    privileged: true
